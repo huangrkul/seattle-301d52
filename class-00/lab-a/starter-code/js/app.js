@@ -53,7 +53,7 @@ function handleClick(event) {
     return alert('Be sure to click directly on an image!!');
   }
   totalClicks += 1;
-  if(totalClicks > 5) { //changed to 5 for testing
+  if(totalClicks > 24) { //changed to 5 for testing
     container.removeEventListener('click', handleClick);
     container.style.display = 'none';
     showList();
